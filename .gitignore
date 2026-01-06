@@ -1,0 +1,19 @@
+# --- Large libraries / databases ---
+data/pepunit*.lib
+data/pepunit*.ascii.lib
+data/pepunit*.clean.lib
+*.dmnd
+
+# --- Large outputs ---
+results/merops_hits_raw.tsv
+results/merops_hits_filtered.tsv
+results/merops_besthit_per_protein.tsv
+
+# Keep summary tables + figures, ignore the rest if huge
+results/lipase/
+results/diamond_db/
+
+# General
+*.log
+__pycache__/
+.DS_Store
